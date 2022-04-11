@@ -2,7 +2,7 @@
 
 [![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lerna.js.org/)
 
-The purpose of this project is to troubleshoot problems encountered when a `lit`-based package depends on a `LitElement@2.0.0`-based package
+The purpose of this project is to troubleshoot problems encountered when a `lit`-based package depends on a `LitElement@2.0.0`-based package **and** `@web/dev-server-storybook`
 
 This branch is implemented as an "npm workspaces" monorepo containing a single package
 
@@ -16,13 +16,13 @@ This branch is implemented as an "npm workspaces" monorepo containing a single p
 
 Note that this branch produces failures in all demos above
 
-**Expected Outcome** _(record from another branch)
+**Expected Outcome** \_(record from another branch)
 
- ![working](./docs/working.gif)
+![working](./docs/working.gif)
 
 **Actual Outcome**
 
- ![broken](./docs/broken.gif)
+![broken](./docs/broken.gif)
 
 # Scripts
 
