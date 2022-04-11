@@ -1,6 +1,6 @@
 # Overview
 
-The purpose of this project is to troubleshoot problems encountered when a `lit`-based package depends on a `LitElement@2.0.0`-based package
+The purpose of this project is to troubleshoot problems encountered when a `lit`-based package depends on a `LitElement@2.0.0`-based package __and__ on `@web/dev-server-storybook`
 
 This branch is implemented as a single package -- not a monorepo
 
