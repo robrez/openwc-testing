@@ -5,8 +5,8 @@
   "author": "me",
   "version": "0.1.0",
   "scripts": {
-    "build": "npm run build --workspaces",
-    "clean": "npm run clean --workspaces",
+    "build": "yarn workspaces run build",
+    "clean": "yarn workspaces run clean",
     "start": "wds",
     "storybook": "wds -c .storybook/server.mjs",
     "storybook:build": "build-storybook",
