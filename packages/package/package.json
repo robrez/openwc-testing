@@ -1,0 +1,19 @@
+{
+  "name": "@acme/component-a",
+  "description": "",
+  "license": "MIT",
+  "author": "me",
+  "version": "0.1.0",
+  "scripts": {
+    "build": "tsc",
+    "clean": "tsc --build ./tsconfig.json --clean"
+  },
+  "dependencies": {
+    "lit": "^2.0.2",
+    "@material/mwc-button": "^0.23.0",
+    "tslib": "^2.3.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.2"
+  }
+}
