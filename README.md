@@ -17,7 +17,7 @@ This branch is implemented as a "yarn workspaces" monorepo containing a single p
 **Installing**
 
 ```
-npm i
+yarn
 ```
 
 **Building**
