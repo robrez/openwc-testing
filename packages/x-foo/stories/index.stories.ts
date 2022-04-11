@@ -1,4 +1,4 @@
-import { html, TemplateResult } from "lit";
+import { render, html, TemplateResult } from "lit";
 import "../src/define.js";
 
 export default {
@@ -6,10 +6,9 @@ export default {
   component: "x-foo",
 };
 
-interface Story {
-  (): TemplateResult;
-}
-
-const generate: Story = () => html` <x-foo> </x-foo> `;
-
-export const Basic = generate();
+export const Basic = () => {
+  const result: TemplateResult = html`<x-foo></x-foo>`;
+  const d = document.createElement("div");
+  render(result, d);
+  return d;
+};
