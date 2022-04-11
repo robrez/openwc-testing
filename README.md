@@ -47,5 +47,56 @@ Demo the result of a storybook-build
 npm run storybook:build
 
 # Then serve it
-npm run storybook:static
+npm run storybook:start
+```
+
+# Other Notes
+
+```
+$ npm -version
+8.5.0
+$ node --version
+v16.14.2
+```
+
+## npm ls results
+
+```
+$ npm ls lit-html
+@acme/components@0.1.0
+├─┬ @material/mwc-button@0.23.0 extraneous
+│ └── lit-html@1.4.1 deduped
+├─┬ @material/mwc-ripple@0.23.0 extraneous
+│ └── lit-html@1.4.1 deduped
+├─┬ @web/dev-server-storybook@0.5.0
+│ └─┬ storybook-addon-markdown-docs@1.0.4
+│   └─┬ @mdjs/core@0.9.4
+│     └─┬ @mdjs/mdjs-preview@0.5.6
+│       └─┬ lit@2.2.2
+│         ├─┬ lit-element@3.2.0
+│         │ └── lit-html@2.2.2 deduped
+│         └── lit-html@2.2.2
+├─┬ lit-element@2.5.1 extraneous
+│ └── lit-html@1.4.1 deduped
+└── lit-html@1.4.1 extraneous
+```
+
+```
+$ npm ls lit-element
+@acme/components@0.1.0
+├─┬ @material/mwc-base@0.23.0 extraneous
+│ └── lit-element@2.5.1 deduped
+├─┬ @material/mwc-button@0.23.0 extraneous
+│ └── lit-element@2.5.1 deduped
+├─┬ @material/mwc-icon@0.23.0 extraneous
+│ └── lit-element@2.5.1 deduped
+├─┬ @material/mwc-ripple@0.23.0 extraneous
+│ └── lit-element@2.5.1 deduped
+├─┬ @web/dev-server-storybook@0.5.0
+│ └─┬ storybook-addon-markdown-docs@1.0.4
+│   └─┬ @mdjs/core@0.9.4
+│     └─┬ @mdjs/mdjs-preview@0.5.6
+│       └─┬ lit@2.2.2
+│         └── lit-element@3.2.0
+└── lit-element@2.5.1 extraneous
 ```
