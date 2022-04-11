@@ -1,14 +1,16 @@
 # Overview
 
-The purpose of this project is to troubleshoot problems encountered when a `lit`-based package depends on a `LitElement@2.0.0`-based package __and__ on `@web/dev-server-storybook`
+![npm workspaces](https://img.shields.io/badge/npm_workspaces-555?logo=npm&style=for-the-badge)
+
+The purpose of this project is to troubleshoot problems encountered when a `lit`-based package depends on a `LitElement@2.0.0`-based package **and** on `@web/dev-server-storybook`
 
 This branch is implemented as a single package -- not a monorepo
 
-| function                                                   | pass/fail |
-| ---------------------------------------------------------- | --------- |
-| demo via dev-server <br> `npm run start`                   | [x] pass  |
-| demo via storybook <br> `npm run storybook`                | [x] pass  |
-| demo static storybook site <br> `npm run storybook:static` | [x] pass  |
+| function                                                   | pass/fail                                          |
+| ---------------------------------------------------------- | -------------------------------------------------- |
+| demo via dev-server <br> `npm run start`                   | ![pass](https://img.shields.io/badge/pass-success) |
+| demo via storybook <br> `npm run storybook`                | ![pass](https://img.shields.io/badge/pass-success) |
+| demo static storybook site <br> `npm run storybook:static` | ![pass](https://img.shields.io/badge/pass-success) |
 
 # Scripts
 
