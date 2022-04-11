@@ -12,6 +12,8 @@
     "importHelpers": true,
     "sourceMap": true,
     "inlineSources": true,
-    "incremental": true
+    "incremental": true,
+    "outDir": "dist",
+    "rootDir": "./"
   }
 }

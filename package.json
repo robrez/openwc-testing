@@ -5,15 +5,17 @@
   "author": "me",
   "version": "0.1.0",
   "scripts": {
-    "build": "npm run build --workspaces",
-    "clean": "npm run clean --workspaces",
+    "build": "tsc",
+    "clean": "tsc --build ./tsconfig.json --clean",
     "start": "wds",
     "storybook": "wds -c .storybook/server.mjs",
     "storybook:build": "build-storybook"
   },
-  "workspaces": [
-    "./packages/*"
-  ],
+  "dependencies": {
+    "lit": "^2.0.2",
+    "@material/mwc-button": "^0.23.0",
+    "tslib": "^2.3.1"
+  },
   "devDependencies": {
     "@web/dev-server": "^0.1.28",
     "@web/dev-server-storybook": "^0.5.0",
