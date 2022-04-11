@@ -1,6 +1,6 @@
 # Overview
 
-![npm workspaces](https://img.shields.io/badge/npm_workspaces-555?logo=npm&style=for-the-badge)
+![npm](https://img.shields.io/badge/npm-555?logo=npm&style=for-the-badge) ![storybook](https://img.shields.io/badge/storybook-555?logo=storybook&style=for-the-badge)
 
 The purpose of this project is to troubleshoot problems encountered when a `lit`-based package depends on a `LitElement@2.0.0`-based package **and** on `@web/dev-server-storybook`
 
