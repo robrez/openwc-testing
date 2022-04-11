@@ -10,11 +10,12 @@
     "clean": "tsc --build ./tsconfig.json --clean",
     "start": "wds",
     "storybook": "wds -c .storybook/server.mjs",
-    "storybook:build": "build-storybook"
+    "storybook:build": "build-storybook",
+    "storybook:start": "wds --open /storybook-static/"
   },
   "dependencies": {
-    "lit": "^2.0.2",
     "@material/mwc-button": "^0.23.0",
+    "lit": "^2.0.2",
     "tslib": "^2.3.1"
   },
   "devDependencies": {
