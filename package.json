@@ -9,7 +9,8 @@
     "clean": "npm run clean --workspaces",
     "start": "wds",
     "storybook": "wds -c .storybook/server.mjs",
-    "storybook:build": "build-storybook"
+    "storybook:build": "build-storybook",
+    "storybook:start": "wds --open /storybook-static/"
   },
   "workspaces": [
     "./packages/*"
