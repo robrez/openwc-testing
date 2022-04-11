@@ -1,7 +1,7 @@
 import { LitElement, html, css } from "lit";
 import "@material/mwc-button/mwc-button";
 
-export class ComponentA extends LitElement {
+export class XFoo extends LitElement {
   static styles = css`
     :host {
       display: block;

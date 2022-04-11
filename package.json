@@ -4,6 +4,7 @@
   "license": "MIT",
   "author": "me",
   "version": "0.1.0",
+  "type": "module",
   "scripts": {
     "build": "npm run build --workspaces",
     "clean": "npm run clean --workspaces",
