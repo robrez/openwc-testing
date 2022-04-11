@@ -10,7 +10,8 @@
     "clean": "lerna run clean",
     "start": "wds",
     "storybook": "wds -c .storybook/server.mjs",
-    "storybook:build": "build-storybook"
+    "storybook:build": "build-storybook",
+    "storybook:static": "wds --open /storybook-static/"
   },
   "devDependencies": {
     "@web/dev-server": "^0.1.28",
