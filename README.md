@@ -1,16 +1,16 @@
 # Overview
 
-[![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lerna.js.org/)
+![npm](https://img.shields.io/badge/npm-555?logo=npm&style=for-the-badge) ![storybook](https://img.shields.io/badge/storybook-555?logo=storybook&style=for-the-badge)
 
 The purpose of this project is to troubleshoot problems encountered when a `lit`-based package depends on a `LitElement@2.0.0`-based package **and** `@web/dev-server-storybook`
 
 This branch is implemented as an "npm workspaces" monorepo containing a single package
 
-| function                                                   | pass/fail |
-| ---------------------------------------------------------- | --------- |
-| demo via dev-server <br> `npm run start`                   | [ ] fail  |
-| demo via storybook <br> `npm run storybook`                | [ ] fail  |
-| demo static storybook site <br> `npm run storybook:static` | [ ] fail  |
+| function                                                   | pass/fail                                           |
+| ---------------------------------------------------------- | --------------------------------------------------- |
+| demo via dev-server <br> `npm run start`                   | ![fail](https://img.shields.io/badge/fail-critical) |
+| demo via storybook <br> `npm run storybook`                | ![fail](https://img.shields.io/badge/fail-critical) |
+| demo static storybook site <br> `npm run storybook:static` | ![fail](https://img.shields.io/badge/fail-critical) |
 
 ## Failure Notes
 
