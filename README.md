@@ -1,6 +1,6 @@
 # Overview
 
-![npm](https://img.shields.io/badge/npm-555?logo=npm&style=for-the-badge) ![lerna](https://img.shields.io/badge/lerna-555?logo=lerna&style=for-the-badge)
+![lerna](https://img.shields.io/badge/lerna-555?logo=lerna&style=for-the-badge) ![storybook](https://img.shields.io/badge/storybook-555?logo=storybook&style=for-the-badge)
 
 The purpose of this project is to troubleshoot problems encountered when a `lit`-based package depends on a `LitElement@2.0.0`-based package
 
